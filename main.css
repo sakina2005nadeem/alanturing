@@ -76,36 +76,6 @@ a:hover{
     animation-delay: -0.8s;
 }
 
-@-webkit-keyframes loading {
-
-    0%,
-    40%,
-    100% {
-        transform: scaleY(0.4);
-        -webkit-transform: scaleY(0.4);
-    }
-
-    20% {
-        -webkit-transform: scaleY(1.0);
-        transform: scaleY(1.0);
-    }
-}
-
-@keyframes loading {
-
-    0%,
-    40%,
-    100% {
-        transform: scaleY(0.4);
-        -webkit-transform: scaleY(0.4);
-    }
-
-    20% {
-        -webkit-transform: scaleY(1.0);
-        transform: scaleY(1.0);
-    }
-}
-
 /*NAVBAR*/
 .navb {
 	width:100%;
@@ -210,15 +180,15 @@ a:hover{
 .abt{
 	width: 100%;
 	background-color: var(--color-six);
-	padding-top: 8vw;
+	padding-top: 6vw;
 	padding-bottom: 3vw;
-	z-index: -2;
 }
 
 .abt img{
+	border: 5px double #000;
 	border-radius: 50%;
-	width: 20vw;
-	height: 20vw;
+	width: 22vw;
+	height: 25vw;
 }
 
 .abt h2{
@@ -234,6 +204,7 @@ a:hover{
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.5vw;
 	text-align: right;
+	font-weight: bold;
 }
 
 /*QUALIFICATIONS*/
@@ -243,9 +214,61 @@ a:hover{
 }
 
 .edu h1{
-	color: var(--color-one);
+	color: var(--color-four);
 	font-size: 4vw;
+	padding-top: 5vw;
 	padding-bottom: 0.5vw;
 	text-align: center;
 	font-family: 'Merriweather', serif;
+}
+
+/*CONTACT*/
+.con{
+	width: 100%;
+}
+
+.con iframe{
+	width: 47vw;
+	height: 35vw;
+	border: 3px solid #000;
+}
+
+.con h1{
+	color: var(--color-four);
+	font-size: 4vw;
+	padding-top: 4vw;
+	padding-bottom: 0.5vw;
+	text-align: left;
+	font-family: 'Merriweather', serif;
+}
+
+/*ANIMATIONS*/
+@-webkit-keyframes loading {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        -webkit-transform: scaleY(1.0);
+        transform: scaleY(1.0);
+    }
+}
+
+@keyframes loading {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        -webkit-transform: scaleY(1.0);
+        transform: scaleY(1.0);
+    }
 }
