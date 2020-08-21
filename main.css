@@ -34,6 +34,7 @@ a:hover{
 
 .mainBod{
 	display: none;
+	transition: 0.4s;
 }
 
 /*LOADER*/
@@ -47,7 +48,7 @@ a:hover{
 }
 
 .loader div{
-    background-color: var(--color-three);
+    background-color: var(--color-six);
     height: 100%;
     width: 9px;
     display: inline-block;
@@ -165,6 +166,7 @@ a:hover{
 	padding: 1vw;
 	margin-left: 25vw;
 	margin-right: 25vw;
+	margin-top: -10vw;
 }
 
 .gallery p{
@@ -231,15 +233,27 @@ a:hover{
 	width: 47vw;
 	height: 35vw;
 	border: 3px solid #000;
+	border-radius: 0 5% 5% 0;
 }
 
 .con h1{
 	color: var(--color-four);
 	font-size: 4vw;
 	padding-top: 4vw;
-	padding-bottom: 0.5vw;
+	padding-bottom: 1.5vw;
 	text-align: left;
 	font-family: 'Merriweather', serif;
+}
+
+.con .icon-lg{
+	font-size: 3em;
+	color: var(--color-four);
+	padding: 1.5vw;
+	transition: 0.4s;
+}
+
+.con .icon-lg:hover{
+	color: var(--color-six);
 }
 
 /*ANIMATIONS*/
