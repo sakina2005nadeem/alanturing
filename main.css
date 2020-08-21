@@ -1,5 +1,9 @@
 :root{
 	--color-one: #333;
+	--color-two: #000;
+	--color-three: #f7ca00;
+	--color-four: #fff;
+	--color-five: #f2be8d;
 }
 
 *{
@@ -13,33 +17,78 @@ html {
 }
 
 body{
-	background-color: #fff;
+	background-color: var(--color-two);
 	overflow-x: hidden;
 }
 
 /*NAV*/
 
-.nav {
-	background-color:rgba(0,0,0,0.8);
+.navb {
 	width:100%;
 	position:fixed;
 	top:0;
 	z-index:999;
 	padding: 1vw 2vw;
+	transition: 0.6s;
 }
 
-.nav h1 {
-	color:#fff;
-	font-size: 2vw;
-	font-family:'Poiret One', cursive;
+.navb h1 {
+	color: var(--color-five);
+	font-size: 1.7vw;
+	font-family: 'Poppins', sans-serif;
 	float:left;
+	margin-left: 2vw;
+	transition: 0.6s;
+}
+
+.navb .bar{
+	padding-right: 10vw;
+}
+
+.disappear{
+	top: -200;
+}
+
+.navb .bar a{
+	float: right;
+    display: block;
+	color: var(--color-four);
+	font-size: 1.3vw;
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+	padding: 0vw 0.6vw;
+    margin-right: 0.7vw;
+    position: relative;
+    transition: 0.5s;
+}
+
+.navb a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: var(--color-three);
+    height: 2px;
+    transition: all 0.6s;
+}
+
+.navb a:hover::after {
+    width: 100%;
+}
+
+.navb .bar a:hover{
+	color: var(--color-three);
 }
 
 /*home*/
 .gallery{
     width: 100%;
     margin: 0;
-    background-color: var(--color-four) ;
+    background-color: var(--color-two) ;
 }
 
 .gallery .container{
@@ -51,17 +100,8 @@ body{
 .gallery img{
     height: 100%;
 	width: 100%;
-	filter: grayscale(80%);
-}
-
-.carousel-control-prev{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 10%;
-}
-
-.carousel-control-next{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 10%;
+	filter: grayscale(100%);
+	opacity: 0.7;
 }
 
 .gallery h5{
@@ -77,4 +117,5 @@ body{
 /*ABOUT*/
 .abt{
 	width: 100%;
+	height: 100%;
 }
