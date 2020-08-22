@@ -101,7 +101,7 @@ a:hover{
 }
 
 .disappear{
-	top: -200;
+	background-color:transparent;
 }
 
 .navb .bar a{
@@ -286,3 +286,4 @@ a:hover{
         transform: scaleY(1.0);
     }
 }
+
