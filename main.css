@@ -6,6 +6,7 @@
 	--color-five: #f2be8d;
 	--color-six: #00a7b3;
 	--color-seven: #f2e477;
+	--color-eight: #E7EDF6;
 }
 
 *{
@@ -88,8 +89,8 @@ a:hover{
 }
 
 .navb h1 {
-	color: var(--color-five);
-	font-size: 1.7vw;
+	color: var(--color-three);
+	font-size: 2vw;
 	font-family: 'Poppins', sans-serif;
 	float:left;
 	margin-left: 2vw;
@@ -139,7 +140,51 @@ a:hover{
 	color: var(--color-three);
 }
 
-/*home*/
+
+/*HOME*/
+
+.home {
+	height:100%;
+	width:100%;
+	top:0;
+	right:0;
+	left:0;
+	background-color:rgba(0,0,0,0.6);
+	overflow-x:hidden;
+}
+
+.home::before {
+	position:absolute;
+	background-size:cover;
+	background-attachment:scroll;
+	background-position:center;
+	height:100%;
+	width:100%;
+	z-index:-1;
+	animation: changebg 20s infinite;
+	content:"";
+}
+
+.intro {
+	text-align:center;
+}
+
+.intro h1{
+	font-family:'Poiret One', cursive;
+	font-size:10vw;
+	float:left;
+	margin-top:20%;
+	color: rgb(22, 24, 28);
+	padding:2vh;
+	text-align:center; 
+	margin-left:10%;
+	background-color:rgba(231, 237, 246,0.7);
+	border-radius:2%;
+}
+
+
+
+/*home
 .gallery{
     width: 100%;
     margin: 0;
@@ -173,43 +218,98 @@ a:hover{
 	color: #000;
 	font-size: 2vw;
 	background-color: var(--color-three);
-	padding: 1vw 2vw;;
+	padding: 1vw 2vw;
 	margin-top: -40vw;
 	float: left;
-}
+}*/
 
 /*ABOUT*/
 .abt{
 	width: 100%;
-	background-color: var(--color-six);
-	padding-top: 6vw;
+	height:100%;
+	background-color: #1F1F1C;
+	padding-top: 10vw;
 	padding-bottom: 3vw;
 }
 
 .abt img{
-	border: 5px double #000;
-	border-radius: 50%;
-	width: 22vw;
-	height: 25vw;
+	border: 1px solid #929288;
+	width: 30vw;
+	border-radius:50%;
+	height: 30vw;
+	padding-left:0px;
 }
 
+
 .abt h2{
-	color: var(--color-one);
-	font-size: 4vw;
-	padding-bottom: 0.5vw;
-	text-align: right;
-	font-family: 'Merriweather', serif;
+	color: #EAEADB;
+	font-size: 5vw;
+	padding-bottom: 1vw;
+	text-align: center;
+	font-family: 'Hind Vadodara', sans-serif;
 }
 
 .abt p{
-	color: var(--color-one);
-	font-family: 'Raleway', sans-serif;
+	color: #EAEADB;
+	font-family: 'Hind Vadodara', sans-serif;
 	font-size: 1.5vw;
-	text-align: right;
+	text-align: center;
 	font-weight: bold;
 }
 
-/*QUALIFICATIONS*/
+ 
+.abt img:hover{
+	border: 3px solid var(--color-three);
+}
+
+.abt .icon-large{
+    font-size: 15vw;
+    width: 0.6vw;
+    color: #EAEADB;
+    padding-top: 0vw;
+	margin-top:0vw;
+	text-align:center;
+}
+
+/*EDUCATION*/
+
+.edu {
+	height:77%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	background-color:var(--color-eight);
+}
+
+.edu h2{
+	padding-top:3vh;
+	color: rgb(22, 24, 28);
+	font-size: 5vw;
+	padding-bottom: 1vw;
+	font-family: 'Hind Vadodara', sans-serif;
+	text-align:left;
+}
+
+.edu p{
+	color: rgb(22, 24, 28);
+	font-family: 'Hind Vadodara', sans-serif;
+	font-size: 1.5vw;
+	font-weight: bold;
+	text-align:left;
+}
+
+
+.edu img {
+	height:37.05vw;
+	width:95%;
+	padding-right:0px;
+	margin-right:0px;
+	float:right;
+}
+
+
+
+/*QUALIFICATIONS
 .edu{
 	width: 100%;
 	color: var(--color-one);
@@ -224,7 +324,7 @@ a:hover{
 	font-family: 'Merriweather', serif;
 }
 
-/*CONTACT*/
+/*CONTACT
 .con{
 	width: 100%;
 }
@@ -254,7 +354,7 @@ a:hover{
 
 .con .icon-lg:hover{
 	color: var(--color-six);
-}
+}*/
 
 /*ANIMATIONS*/
 @-webkit-keyframes loading {
@@ -287,3 +387,20 @@ a:hover{
     }
 }
 
+@keyframes changebg {
+	0% {
+		background-image:url(images/alan3.jpg);
+	}
+	40% {
+		background-image:url(images/alan3.jpg);
+	}
+	50% {
+		background-image:url(images/alan4.jpg);
+	}
+	90% {
+		background-image:url(images/alan4.jpg);
+	}
+	100% {
+		background-image:url(images/alan3.jpg);
+	}
+}
