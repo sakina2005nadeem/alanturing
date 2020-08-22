@@ -101,7 +101,7 @@ a:hover{
 }
 
 .disappear{
-	background-color:transparent;
+	top:-200;
 }
 
 .navb .bar a{
