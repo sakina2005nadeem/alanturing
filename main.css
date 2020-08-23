@@ -277,7 +277,7 @@ a:hover{
 	width: 100%;
 	padding-bottom:5vw;
 	background-color: #1F1F1C;
-	padding-top: 10vw;
+	padding-top: 9vw;
 	text-align:center;
 }
 
@@ -316,7 +316,7 @@ a:hover{
 	text-align: center;
 	padding-bottom: 0;
 	padding-left:15px;
-	padding-right:15px;
+	padding-right: 15px;
 }
 
  
@@ -324,20 +324,7 @@ a:hover{
 	border: 3px solid var(--color-three);
 }
 
-.abt .icon-large{
-    font-size: 13vw;
-    width: 0.6vw;
-    color: #EAEADB;
-    padding-top: 0vw;
-	margin-top:0vw;
-	text-align:center;
-	margin-left: 12vw;
-	margin-top: -4vw;
-}
-
 /*ACCOMPLISHMENTS*/
-
-
 .edu {
 	
 	width:100%;
@@ -347,13 +334,10 @@ a:hover{
 	top:0px;
 }
 
-
-
-
 .edu h2{
-	padding-top:3vh;
+	padding-top:5vw;
 	color: rgb(22, 24, 28);
-	font-size: 30px;
+	font-size: 40px;
 	padding-bottom: 1vw;
 	font-family: 'Hind Vadodara', sans-serif;
 	text-align:center;
@@ -364,23 +348,63 @@ a:hover{
 .edu p{
 	color: rgb(22, 24, 28);
 	font-family: 'Hind Vadodara', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	text-align:center;
 	padding-left:10px;
 	padding-right:10px;
 }
 
+.edu .cont {
+	position: relative;
+	text-align: center;
+	background-color: #000;
+}
 
-.edu img {
+.edu .cont img {
+	background-color: #000;
 	height:65vh;
 	width:104%;
 	padding-right:0px;
 	margin-left: 3vw;
-	float:right;
+	float: right;
+	transition: 0.4s;
 }
 
+<<<<<<< HEAD
+/*EXPERIENCE*/
 
+.exp{
+	width: 100%;
+	padding-bottom:5vw;
+	background-color: #1F1F1C;
+	padding-top: 7vw;
+	text-align:center;
+}
+
+.exp h2{
+	text-align:center;
+	font-size:50px;
+	color:var(--color-four);
+	padding-left:10px;
+	padding-right:10px;
+	font-family: 'Hind Vadodara', sans-serif;
+	margin-bottom:3vw;
+}
+
+.exp p{
+	text-align:center;
+	font-size:22px;
+	color:var(--color-four);
+	padding:10px;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+
+=======
+.edu .cont img:hover{
+	opacity: 0.7;
+}
+>>>>>>> b0cb332b4620e5c6d962bfa8e0e31c9e42789cf8
 
 /*QUALIFICATIONS
 .edu{
@@ -428,6 +452,43 @@ a:hover{
 .con .icon-lg:hover{
 	color: var(--color-six);
 }*/
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    background-color: var(--color-one);
+}
+
+
+.footer h1{
+	text-align: center;
+	color: var(--color-four);
+    font-size: 5vw;
+    font-family: 'Raleway', cursive;
+    letter-spacing: 0.5vw;
+    padding-top: 7vw;
+	text-decoration:none !important;
+}
+
+.footer h2{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    padding-top: 0.5vw;
+    text-align: center;
+    letter-spacing: 0.4;
+	text-decoration:none !important;
+}
+
+.footer p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.4;
+    font-size: 1.3vw;
+    text-align: center;
+    padding-top: 0.3vw;
+	text-decoration:none !important;
+}
 
 /*ANIMATIONS*/
 @-webkit-keyframes loading {
