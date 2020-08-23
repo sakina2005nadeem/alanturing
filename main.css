@@ -467,7 +467,7 @@ a:hover{
     width: 100%;
 	background-color: var(--color-one);
 	text-align: center;
-	padding-bottom:5vw;
+	padding-bottom:4vw;
 }
 
 
@@ -530,6 +530,11 @@ a:hover{
         -webkit-transform: scaleY(1.0);
         transform: scaleY(1.0);
     }
+}
+
+@keyframes slide{
+	from {margin-top:;}
+	to {top:0px;}
 }
 
 @keyframes changebg {
