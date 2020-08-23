@@ -202,6 +202,7 @@ a:hover{
 	width:10%;
 }
 
+
 @media screen and (max-height:450px) {
 	.sidenav {padding-top:15px;}
 	.sidenav a {font-size:18px;}
@@ -222,6 +223,11 @@ a:hover{
 
 .nav-small{
 	display:none;
+}
+
+.nav-small .icon{
+	color:var(--color-three);
+	font-size:2vw;
 }
 
 /*HOME*/
