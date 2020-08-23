@@ -2,7 +2,7 @@
     
    var myVar;
    function myFunction() {
-      myVar = setTimeout(showPage, 4000);
+      myVar = setTimeout(showPage, 3000);
    }
     
    function showPage() {
@@ -23,7 +23,7 @@
   
     // SIDENAV 
 	function openNav(){
-		document.getElementById("sidenav").style.width="100%",
+		document.getElementById("sidenav").style.width="100%";
 	}
 	function closeNav () {
 		document.getElementById("sidenav").style.width="0";
