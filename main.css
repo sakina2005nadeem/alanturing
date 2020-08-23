@@ -15,6 +15,7 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
+	outline:none !important;
 }
 
 html {
@@ -92,14 +93,14 @@ a:hover{
 .navb h1 {
 	color: var(--color-three);
 	font-size: 2vw;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poiret One', cursive;
 	float:left;
 	margin-left: 2vw;
 	transition: 0.6s;
 }
 
 .navb .bar{
-	padding-right: 10vw;
+	padding-right: 3vw;
 }
 
 .disappear{
@@ -148,7 +149,7 @@ a:hover{
 	z-index:500;
 	top:0px;
 	left:0px;
-    padding: 30px 0px;
+    padding-top: 4px;
 	background-color:rgba(0,0,0,0.7);
 	overflow-x:hidden;
 	transition:0.5s;
@@ -163,11 +164,10 @@ a:hover{
 	text-align:center;
 	text-decoration:none;
 	transition: all 0.5s;
-	margin:10px 15px;
 	position:relative;
 	font-size:30px;
 	font-weight:bold;
-	font-family:'Poppins', sans-serif;
+	font-family:'Poiret One', cursive;
 	text-transform:uppercase;
 }
 
@@ -186,7 +186,7 @@ a:hover{
 }
 
 .sidenav a:hover::after {
-	width:50%;
+	width:30%;
 }
 
 .sidenav a:hover {
@@ -197,9 +197,9 @@ a:hover{
 	position:absolute;
 	top:0px;
 	right:2%;
-	font-size:36px;
 	margin-left:4%;
 	margin-top:5%;
+	font-size:36px;
 	width:10%;
 }
 
@@ -228,7 +228,8 @@ a:hover{
 
 .nav-small .icon{
 	color:var(--color-three);
-	font-size: 40px;
+	font-size: 35px;
+	padding:5px;
 }
 
 /*HOME*/
@@ -267,7 +268,8 @@ a:hover{
 	padding:2vh;
 	text-align:center; 
     vertical-align: middle;
-	margin-left:10%;	
+	margin-left:10%;
+    	
 }
 
 
@@ -326,7 +328,6 @@ a:hover{
 
 /*ACCOMPLISHMENTS*/
 .edu {
-	
 	width:100%;
 	padding:0px;
 	margin:0px;
@@ -335,7 +336,7 @@ a:hover{
 }
 
 .edu h2{
-	padding-top:5vw;
+	padding-top:6vw;
 	color: rgb(22, 24, 28);
 	font-size: 40px;
 	padding-bottom: 1vw;
@@ -358,23 +359,48 @@ a:hover{
 .edu .cont {
 	position: relative;
 	text-align: center;
-	background-color: #000;
 }
 
 .edu .cont img {
-	background-color: #000;
+	display:block;
 	height:66vh;
 	width:104.2%;
 	padding-right:0px;
-	margin-left: 3vw;
+	margin-left: 0vw;
 	float: right;
-	transition: 0.4s;
-	border-radius: 5%;
+	transition:0.5s ease;
 }
 
-.edu .cont img:hover{
-	opacity: 0.7;
+/*.edu .overlay {
+	position:absolute;
+	top:50%;
+	left:39%;
+	opacity:0;
+	transition: 0s;
+	transform:translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}*/
+
+.edu .cont:hover img{
+	opacity: 0.6;
 }
+
+/*.edu .cont:hover .overlay{
+	opacity:1;
+}
+
+.text {
+	font-family:'Hind Vadodara', sans-serif;
+	font-size:24px;
+	color:#422926;
+	position:absolute;
+	text-align:center;
+	transition: 0s ease;
+	background-color:transparent;
+	margin-top:8.5vw;
+	margin-right:0;
+	text-transform:uppercase;
+}*/
 
 /*EXPERIENCE*/
 
@@ -391,6 +417,8 @@ a:hover{
 	text-align:center;
 	font-size:50px;
 	color:var(--color-four);
+	margin-top:0px;
+	padding-top:0px;
 	padding-left:10px;
 	padding-right:10px;
 	font-family: 'Poiret One', cursive;
@@ -404,7 +432,7 @@ a:hover{
 	padding-left:10px;
 	padding-right:10px;
 	font-family: 'Poiret One', cursive;
-	margin-bottom:3vw;
+	margin-bottom:3.5vw;
 }
 
 .exp .icon-large{
@@ -413,6 +441,65 @@ a:hover{
     margin-right:17%;
     color: var(--color-four);
 	text-align:center;
+}
+
+/*AFFILIATIONS*/
+
+.aff{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	background-color:var(--color-eight);
+	top:0px;
+	padding-bottom:3vw;
+	text-align:center;
+}
+
+.aff h1{
+	padding-top:6vw;
+	color: rgb(22, 24, 28);
+	font-size: 85px;
+	padding-bottom: 3vw;
+	padding-top:3vw;
+	font-family: 'Hind Vadodara', sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.aff .polaroid {
+  width: 80%;
+  height:65vh;
+  background-color: var(--color-one);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 25px;
+  margin-left:3vw;
+  border-radius:4%;
+  margin-bottom:4vh;
+  border:2px solid var(--color-one);
+}
+
+.aff img {
+	width:100%;
+	height:58vh;
+	border-radius:4%;
+	margin-bottom:8px;
+}
+
+.aff.container {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius:5%;
+  font-family:'Hind Vadodara', sans-serif;
+  padding:7px;
+  background-color:var(--color-one);
+}
+
+.aff p {
+	color:var(--color-four);
+}
+
+.aff .polaroid:hover {
+	background-color:#000;
 }
 
 
@@ -534,7 +621,7 @@ a:hover{
 }
 
 @keyframes slide{
-	from {margin-top:;}
+	from {margin-top:-100px;}
 	to {top:0px;}
 }
 
