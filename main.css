@@ -347,13 +347,10 @@ a:hover{
 	top:0px;
 }
 
-
-
-
 .edu h2{
-	padding-top:3vh;
+	padding-top:5vw;
 	color: rgb(22, 24, 28);
-	font-size: 30px;
+	font-size: 40px;
 	padding-bottom: 1vw;
 	font-family: 'Hind Vadodara', sans-serif;
 	text-align:center;
@@ -364,23 +361,32 @@ a:hover{
 .edu p{
 	color: rgb(22, 24, 28);
 	font-family: 'Hind Vadodara', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	text-align:center;
 	padding-left:10px;
 	padding-right:10px;
 }
 
+.edu .cont {
+	position: relative;
+	text-align: center;
+	background-color: #000;
+}
 
-.edu img {
+.edu .cont img {
+	background-color: #000;
 	height:65vh;
 	width:104%;
 	padding-right:0px;
 	margin-left: 3vw;
-	float:right;
+	float: right;
+	transition: 0.4s;
 }
 
-
+.edu img:hover{
+	opacity: 0.7;
+}
 
 /*QUALIFICATIONS
 .edu{
