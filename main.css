@@ -353,24 +353,28 @@ a:hover{
 .edu h2{
 	padding-top:3vh;
 	color: rgb(22, 24, 28);
-	font-size: 3vw;
+	font-size: 30px;
 	padding-bottom: 1vw;
 	font-family: 'Hind Vadodara', sans-serif;
-	text-align:left;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
 }
 
 .edu p{
 	color: rgb(22, 24, 28);
 	font-family: 'Hind Vadodara', sans-serif;
-	font-size: 1.5vw;
+	font-size: 18px;
 	font-weight: bold;
-	text-align:left;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
 }
 
 
 .edu img {
-	height:37.05vw;
-	width:50vw;
+	height:65vh;
+	width:104%;
 	padding-right:0px;
 	margin-left: 3vw;
 	float:right;
