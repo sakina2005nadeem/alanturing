@@ -384,7 +384,7 @@ a:hover{
 	transition: 0.4s;
 }
 
-.edu img:hover{
+.edu .cont img:hover{
 	opacity: 0.7;
 }
 
