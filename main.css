@@ -141,6 +141,7 @@ a:hover{
 	color: var(--color-three);
 }
 
+/*SIDENAV*/
 .sidenav {
 	height:100%;
 	width:0%;
@@ -531,11 +532,6 @@ a:hover{
         -webkit-transform: scaleY(1.0);
         transform: scaleY(1.0);
     }
-}
-
-@keyframes slide{
-	from {margin-top:;}
-	to {top:0px;}
 }
 
 @keyframes changebg {
