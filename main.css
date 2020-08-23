@@ -292,7 +292,7 @@ a:hover{
 .abt img{
 	border: 1px solid #929288;
 	width: 55vh;
-	border-radius:5%;
+	border-radius:50%;
 	height: 55vh;
 	padding:0px;
 	margin-bottom:7px;
@@ -369,6 +369,7 @@ a:hover{
 	margin-left: 3vw;
 	float: right;
 	transition: 0.4s;
+	border-radius: 5%;
 }
 
 .edu .cont img:hover{
