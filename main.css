@@ -289,9 +289,9 @@ a:hover{
 
 .abt img{
 	border: 1px solid #929288;
-	width: 60vh;
+	width: 55vh;
 	border-radius:50%;
-	height: 60vh;
+	height: 55vh;
 	padding:0px;
 	margin-bottom:7px;
 	margin-left:10px;
@@ -300,7 +300,7 @@ a:hover{
 
 .abt h2{
 	color: #EAEADB;
-	font-size: 35px;
+	font-size: 47px;
 	padding-bottom: 1vw;
 	text-align: center;
 	font-family: 'Hind Vadodara', sans-serif;
@@ -310,7 +310,7 @@ a:hover{
 .abt p{
 	color: #EAEADB;
 	font-family: 'Hind Vadodara', sans-serif;
-	font-size: 21px;
+	font-size: 23px;
 	text-align: center;
 	font-weight: bold;
 	padding-bottom: 0;
