@@ -277,7 +277,7 @@ a:hover{
 	width: 100%;
 	padding-bottom:5vw;
 	background-color: #1F1F1C;
-	padding-top: 10vw;
+	padding-top: 9vw;
 	text-align:center;
 }
 
@@ -316,7 +316,7 @@ a:hover{
 	text-align: center;
 	padding-bottom: 0;
 	padding-left:15px;
-	padding-right:15px;
+	padding-right: 15px;
 }
 
  
@@ -324,20 +324,7 @@ a:hover{
 	border: 3px solid var(--color-three);
 }
 
-.abt .icon-large{
-    font-size: 13vw;
-    width: 0.6vw;
-    color: #EAEADB;
-    padding-top: 0vw;
-	margin-top:0vw;
-	text-align:center;
-	margin-left: 12vw;
-	margin-top: -4vw;
-}
-
 /*ACCOMPLISHMENTS*/
-
-
 .edu {
 	
 	width:100%;
@@ -434,6 +421,43 @@ a:hover{
 .con .icon-lg:hover{
 	color: var(--color-six);
 }*/
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    background-color: var(--color-one);
+}
+
+
+.footer h1{
+	text-align: center;
+	color: var(--color-four);
+    font-size: 5vw;
+    font-family: 'Raleway', cursive;
+    letter-spacing: 0.5vw;
+    padding-top: 7vw;
+	text-decoration:none !important;
+}
+
+.footer h2{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    padding-top: 0.5vw;
+    text-align: center;
+    letter-spacing: 0.4;
+	text-decoration:none !important;
+}
+
+.footer p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.4;
+    font-size: 1.3vw;
+    text-align: center;
+    padding-top: 0.3vw;
+	text-decoration:none !important;
+}
 
 /*ANIMATIONS*/
 @-webkit-keyframes loading {
