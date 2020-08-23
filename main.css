@@ -245,7 +245,7 @@ a:hover{
 .home::before {
 	position:absolute;
 	background-size:cover;
-	background-attachment:scroll;
+	background-attachment:fixed;
 	background-position:center;
 	height:100%;
 	width:100%;
@@ -292,7 +292,7 @@ a:hover{
 .abt img{
 	border: 1px solid #929288;
 	width: 55vh;
-	border-radius:50%;
+	border-radius:5%;
 	height: 55vh;
 	padding:0px;
 	margin-bottom:7px;
@@ -348,7 +348,7 @@ a:hover{
 .edu p{
 	color: rgb(22, 24, 28);
 	font-family: 'Hind Vadodara', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	text-align:center;
 	padding-left:10px;
@@ -363,8 +363,8 @@ a:hover{
 
 .edu .cont img {
 	background-color: #000;
-	height:65vh;
-	width:104%;
+	height:66vh;
+	width:104.2%;
 	padding-right:0px;
 	margin-left: 3vw;
 	float: right;
@@ -374,6 +374,46 @@ a:hover{
 .edu .cont img:hover{
 	opacity: 0.7;
 }
+
+/*EXPERIENCE*/
+
+.exp{
+	width: 100%;
+	padding-bottom:5vw;
+	background-color: #1F1F1C;
+	padding-top: 0.5vw;
+	padding-bottom: 3.5vw;
+	text-align:center;
+}
+
+.exp h2{
+	text-align:center;
+	font-size:50px;
+	color:var(--color-four);
+	padding-left:10px;
+	padding-right:10px;
+	font-family: 'Poiret One', cursive;
+	margin-bottom:3vw;
+}
+
+.exp p{
+	text-align:center;
+	font-size:22px;
+	color:var(--color-four);
+	padding-left:10px;
+	padding-right:10px;
+	font-family: 'Poiret One', cursive;
+	margin-bottom:3vw;
+}
+
+.exp .icon-large{
+    font-size: 13vw;
+    width: 0.8vw;
+    margin-right:17%;
+    color: var(--color-four);
+	text-align:center;
+}
+
 
 /*QUALIFICATIONS
 .edu{
@@ -432,6 +472,9 @@ a:hover{
 
 .footer h1{
 	text-align: center;
+	color: var(--color-three);
+    font-size: 6vw;
+    font-family: 'Poiret One', cursive;
 	color: var(--color-four);
     font-size: 70px;
     font-family: 'Raleway', cursive;
@@ -442,6 +485,8 @@ a:hover{
 
 .footer h2{
     color: #fff;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 2vw;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     padding-top: 0.5vw;
@@ -452,7 +497,7 @@ a:hover{
 
 .footer p{
     color: #fff;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Hind Vadodara', sans-serif;
     letter-spacing: 0.4;
     font-size: 20px;
     text-align: center;
