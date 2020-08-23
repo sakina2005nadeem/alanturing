@@ -425,24 +425,26 @@ a:hover{
 /*FOOTER*/
 .footer{
     width: 100%;
-    background-color: var(--color-one);
+	background-color: var(--color-one);
+	text-align: center;
+	padding-left: 7vw;
 }
 
 
 .footer h1{
 	text-align: center;
 	color: var(--color-four);
-    font-size: 5vw;
+    font-size: 70px;
     font-family: 'Raleway', cursive;
     letter-spacing: 0.5vw;
-    padding-top: 7vw;
+    padding-top: 4vw;
 	text-decoration:none !important;
 }
 
 .footer h2{
     color: #fff;
     font-family: 'Oswald', sans-serif;
-    font-size: 2vw;
+    font-size: 30px;
     padding-top: 0.5vw;
     text-align: center;
     letter-spacing: 0.4;
@@ -453,7 +455,7 @@ a:hover{
     color: #fff;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.4;
-    font-size: 1.3vw;
+    font-size: 20px;
     text-align: center;
     padding-top: 0.3vw;
 	text-decoration:none !important;
