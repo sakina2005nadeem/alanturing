@@ -148,7 +148,7 @@ a:hover{
 	z-index:500;
 	top:0px;
 	left:0px;
-	background-color:rgba(255,255,255,0.7);
+	background-color:rgba(0,0,0,0.7);
 	overflow-x:hidden;
 	transition:0.5s;
 	padding-top:10%;
