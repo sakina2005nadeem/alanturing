@@ -254,23 +254,22 @@ a:hover{
 	content:"";
 }
 
-.intro {
+.home .intro {
 	text-align:center;
 }
 
-.intro h1{
+.home .intro h1{
 	font-family:'Poiret One', cursive;
 	font-size:10vw;
 	float:left;
-	margin-top: 25%;
-	color: rgb(22, 24, 28);
+	margin-top: 20%;
+	color: var(--color-four);
 	padding:2vh;
 	text-align:center; 
     vertical-align: middle;
-	margin-left:10%;
-	background-color:rgba(231, 237, 246,0.7);
-	border-radius:2%;
+	margin-left:10%;	
 }
+
 
 
 /*ABOUT*/
@@ -279,6 +278,7 @@ a:hover{
 	padding-bottom:5vw;
 	background-color: #1F1F1C;
 	padding-top: 10vw;
+	text-align:center;
 }
 
 .abt .img1{
@@ -314,10 +314,9 @@ a:hover{
 	font-family: 'Hind Vadodara', sans-serif;
 	font-size: 23px;
 	text-align: center;
-	font-weight: bold;
 	padding-bottom: 0;
-	padding-left:5px;
-	padding-right:5px;
+	padding-left:15px;
+	padding-right:15px;
 }
 
  
@@ -336,20 +335,25 @@ a:hover{
 	margin-top: -4vw;
 }
 
-/*EDUCATION*/
+/*ACCOMPLISHMENTS*/
+
 
 .edu {
-	height:77%;
+	
 	width:100%;
 	padding:0px;
 	margin:0px;
 	background-color:var(--color-eight);
+	top:0px;
 }
+
+
+
 
 .edu h2{
 	padding-top:3vh;
 	color: rgb(22, 24, 28);
-	font-size: 5vw;
+	font-size: 3vw;
 	padding-bottom: 1vw;
 	font-family: 'Hind Vadodara', sans-serif;
 	text-align:left;
@@ -366,7 +370,7 @@ a:hover{
 
 .edu img {
 	height:37.05vw;
-	width:95%;
+	width:50vw;
 	padding-right:0px;
 	margin-left: 3vw;
 	float:right;
