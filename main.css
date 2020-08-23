@@ -9,6 +9,8 @@
 	--color-eight: #E7EDF6;
 }
 
+/*Prerequisites*/
+
 *{
 	margin:0;
 	padding:0;
@@ -140,6 +142,88 @@ a:hover{
 	color: var(--color-three);
 }
 
+.sidenav {
+	height:100%;
+	width:0%;
+	position:fixed;
+	z-index:500;
+	top:0px;
+	left:0px;
+	background-color:rgba(255,255,255,0.7);
+	overflow-x:hidden;
+	transition:0.5s;
+	padding-top:10%;
+}
+
+.sidenav a{
+	display:block;
+	color:var(--color-four);
+	padding:10px 4px;
+	width:80%;
+	text-align:center;
+	text-decoration:none;
+	transition: all 0.5s;
+	margin:10px 15px;
+	position:relative;
+	font-size:30px;
+	font-weight:bold;
+	font-family:'Poppins', sans-serif;
+	text-transform:uppercase;
+}
+
+.sidenav a::after {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	width:0%;
+	content:'.';
+	color:transparent;
+	background-color:var(--color-three);
+	height:2px;
+	transition: all 0.5s;
+}
+
+.sidenav a:hover::after {
+	width:50%;
+}
+
+.sidenav a:hover {
+	color:var(--color-three);
+}
+
+.sidenav .close {
+	position:absolute;
+	top:0px;
+	right:2%;
+	font-size:36px;
+	margin-left:4%;
+	margin-top:5%;
+	width:10%;
+}
+
+@media screen and (max-height:450px) {
+	.sidenav {padding-top:15px;}
+	.sidenav a {font-size:18px;}
+}
+
+@media screen and (max-width:950px;){
+	.nav-big {
+		display:none !important;
+	}
+	.nav-small {
+	display: block!important;	
+	}	
+}
+
+.nav-big {
+	display:block;
+}	
+
+.nav-small{
+	display:none;
+}
 
 /*HOME*/
 
