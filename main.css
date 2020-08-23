@@ -467,17 +467,15 @@ a:hover{
     width: 100%;
 	background-color: var(--color-one);
 	text-align: center;
+	padding-bottom:5vw;
 }
 
 
 .footer h1{
 	text-align: center;
 	color: var(--color-three);
-    font-size: 6vw;
     font-family: 'Poiret One', cursive;
-	color: var(--color-four);
-    font-size: 70px;
-    font-family: 'Raleway', cursive;
+    font-size: 75px;
     letter-spacing: 0.5vw;
     padding-top: 4vw;
 	text-decoration:none !important;
@@ -486,8 +484,6 @@ a:hover{
 .footer h2{
     color: #fff;
     font-family: 'Hind Vadodara', sans-serif;
-    font-size: 2vw;
-    font-family: 'Oswald', sans-serif;
     font-size: 30px;
     padding-top: 0.5vw;
     text-align: center;
