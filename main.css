@@ -257,19 +257,21 @@ a:hover{
 
 .home .intro {
 	text-align:center;
+	margin-top: 15%;
+	margin-left:4%;
 }
 
 .home .intro h1{
 	font-family:'Poiret One', cursive;
 	font-size:10vw;
 	float:left;
-	margin-top: 20%;
-	color: var(--color-four);
-	padding:2vh;
+	margin:5%;
+	color: var(--color-one);
+	padding:3vh;
 	text-align:center; 
     vertical-align: middle;
-	margin-left:10%;
-    	
+    border:10px double var(--color-one);
+    background-color:var(--color-eight);
 }
 
 
