@@ -159,7 +159,7 @@ a:hover{
 .sidenav a{
 	display:block;
 	color:var(--color-four);
-	padding:10px 4px;
+	padding: 6px 2px;
 	width:80%;
 	text-align:center;
 	text-decoration:none;
