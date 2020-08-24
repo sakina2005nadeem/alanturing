@@ -195,10 +195,8 @@ a:hover{
 
 .sidenav .close {
 	position:absolute;
-	top:0px;
-	right:2%;
-	margin-left:4%;
-	margin-top:5%;
+	top:60px;
+	right:35px;
 	font-size:36px;
 	width:10%;
 }
@@ -288,22 +286,27 @@ a:hover{
 	text-align:center;
 }
 
-.abt .img1{
-	float: left;
-}
 
-.abt .img2{
-	float: right;
-}
-
-.abt img{
+.abt #myImg{
 	border: 1px solid #929288;
-	width: 55vh;
+	width: 50vh;
 	border-radius:50%;
-	height: 55vh;
+	height: 50vh;
 	padding:0px;
 	margin-bottom:7px;
 	margin-left:10px;
+	cursor:pointer;
+}
+
+.abt #myImg1{
+	border: 1px solid #929288;
+	width: 50vh;
+	border-radius:50%;
+	height: 50vh;
+	padding:0px;
+	margin-bottom:7px;
+	margin-left:10px;
+	cursor:pointer;
 }
 
 
@@ -327,8 +330,85 @@ a:hover{
 }
 
  
-.abt img:hover{
+.abt #myImg:hover{
 	border: 3px solid var(--color-three);
+	opacity:0.5;
+}
+
+.abt #myImg1:hover{
+	border: 3px solid var(--color-three);
+	opacity:0.5;
+}
+
+/*Image Modal*/
+
+.modal {
+	display:none;
+	position:fixed;
+	z-index:1;
+	padding-top:100px;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.9);
+}
+
+.modal-content{
+	margin:auto;
+	display:block;
+	width:auto%;
+	max-width:50%;
+	height:auto;
+	max-height:80%;
+}
+
+#caption {
+	margin:auto;
+	display:block;
+	width:50vh;
+	color:#ccc;
+	padding:10px;
+	height:150px;
+	font-size:25px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.modal-content, #caption{
+	animation-name:zoom;
+	animation-duration:0.6s;
+}
+
+@keyframes zoom {
+	from {transform:scale(0.1);}
+	to {transform: scale(1);}
+}
+
+/*the close btn*/
+
+.close {
+	position:absolute;
+	top:60px;
+	right:35px;
+	color:#f1f1f1;
+	font-size:40px;
+	font-weight:bold;
+	transition:0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color:#bbb;
+    text-decoration:none;
+    cursor:pointer;	
+}
+
+@media only screen and (max-width:50vh){
+	.modal-content {
+		width:100%;
+	}
 }
 
 /*ACCOMPLISHMENTS*/
@@ -387,7 +467,7 @@ a:hover{
 }*/
 
 .edu .cont:hover img{
-	opacity: 0.6;
+	opacity: 0.7;
 }
 
 /*.edu .cont:hover .overlay{
@@ -760,7 +840,7 @@ a:hover{
 }
 
 @keyframes slide{
-	from {margin-top:-50px;}
+	from {margin-top:-30px;}
 	to {top:0px;}
 }
 
