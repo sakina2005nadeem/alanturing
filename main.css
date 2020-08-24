@@ -566,6 +566,7 @@ a:hover{
 	border-radius:5%;
 	border:1px solid #007bff;
 	margin-top:3vh;
+	cursor:pointer;
 }
 
 .con .tact1 p{
@@ -600,6 +601,7 @@ a:hover{
 	border-radius:5%;
 	border:1px solid #dc3545;
 	margin-top:3vh;
+	cursor:pointer;
 }
 
 .con .tact2 p{
@@ -633,6 +635,7 @@ a:hover{
 	border-radius:5%;
 	border:1px solid #31D620;
 	margin-top:3vh;
+	cursor:pointer;
 }
 
 .con .tact3 p{
