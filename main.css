@@ -251,7 +251,7 @@ a:hover{
 	height:100%;
 	width:100%;
 	z-index:-1;
-	animation: changebg 20s infinite;
+	animation: changebg 40s infinite;
 	content:"";
 }
 
@@ -768,16 +768,29 @@ a:hover{
 	0% {
 		background-image:url(images/alan3.jpg);
 	}
-	40% {
+	20% {
 		background-image:url(images/alan3.jpg);
 	}
-	50% {
+	25% {
 		background-image:url(images/alan4.jpg);
 	}
-	90% {
+	45% {
 		background-image:url(images/alan4.jpg);
+	}
+	50%{
+		background-image:url(images/alan1.jpg);
+	}
+	70% {
+		background-image:url(images/alan1.jpg);
+	}
+	75%{
+		background-image:url(images/alan6.jpg);
+	}
+	95% {
+		background-image:url(images/alan6.jpg);
 	}
 	100% {
 		background-image:url(images/alan3.jpg);
 	}
+	
 }
