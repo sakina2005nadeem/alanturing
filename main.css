@@ -272,6 +272,9 @@ a:hover{
     vertical-align: middle;
     border:10px double var(--color-one);
     background-color:var(--color-eight);
+	animation-name:slide;
+	animation-duration:1s;
+	animation-fill-mode:both;
 }
 
 
@@ -623,7 +626,7 @@ a:hover{
 }
 
 @keyframes slide{
-	from {margin-top:-100px;}
+	from {margin-top:-50px;}
 	to {top:0px;}
 }
 
