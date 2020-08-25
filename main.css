@@ -359,7 +359,7 @@ a:hover{
 .modal-content{
 	margin:auto;
 	display:block;
-	width:auto%;
+	width: auto;
 	max-width:50%;
 	height:auto;
 	max-height:80%;
@@ -595,7 +595,7 @@ a:hover{
 /*CONTACT*/
 .con{
 	width: 100%;
-	padding-bottom;2%;
+	padding-bottom: 2%;
 }
 
 .con h1{
@@ -756,7 +756,7 @@ a:hover{
 	font-size: 18px;
 	color: #BEBFC0;
 	padding-left: 6vw;
-	margin-top: -3.8vw;
+	margin-top: -3.6vw;
 	margin-left:0%;
 	transition:1s;
 	font-family: 'Comfortaa', sans-serif;
