@@ -775,7 +775,7 @@ a:hover{
     width: 100%;
 	background-color: var(--color-one);
 	text-align: center;
-	padding-bottom:4vw;
+	padding-bottom:6vh;
 }
 
 
@@ -785,7 +785,7 @@ a:hover{
     font-family: 'Poiret One', cursive;
     font-size: 75px;
     letter-spacing: 0.5vw;
-    padding-top: 4vw;
+    padding-top: 13vh;
 	text-decoration:none !important;
 }
 
@@ -803,7 +803,7 @@ a:hover{
     color: #fff;
     font-family: 'Hind Vadodara', sans-serif;
     letter-spacing: 0.4;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     padding-top: 0.3vw;
 	text-decoration:none !important;
